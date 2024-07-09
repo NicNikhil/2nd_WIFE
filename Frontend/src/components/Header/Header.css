@@ -30,7 +30,7 @@
     font-size: 1vw;
 }
 
-.Header-contents button {
+.Header-contents button{
     border: none;
     color: #747474;
     font-weight: 500;
@@ -38,4 +38,30 @@
     background-color: white;
     font-size: max(1vw, 13px);
     border-radius: 50px;
+}
+
+
+
+@media (max-width:1050px) {
+  
+
+    .Header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px) {
+ 
+    .Header-contents{
+        max-width: 65%;
+    }
+
+    .Header-contents p{
+        display: none;
+
+    }
+
+    .Header-contents button{
+        padding: 2vw 4vw;
+    }
 }
